@@ -2,7 +2,16 @@
 {
 
 background-color: #ccc5b9;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 20px;
+}
 
+
+#NavBar img
+{
+margin-right: auto;
 }
 
 #NavBar h3
@@ -13,7 +22,8 @@ color: #252422;
 
 #NavBar title
 {
-text-align: left;
+justify-self: flex-start;
+align-self: left;
 color: #252422;
 }
 
