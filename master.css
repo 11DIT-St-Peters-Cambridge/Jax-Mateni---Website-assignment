@@ -4,26 +4,28 @@
 background-color: #ccc5b9;
 display: flex;
 align-items: center;
-justify-content: flex-end;
+justify-content: flex-start;
 gap: 20px;
 }
 
 
 #NavBar img
 {
-margin-right: auto;
+/* I dont wanna delete this incase i need later or smth, idk */
 }
 
-#NavBar h3
-{
-text-align: right;
-color: #252422;
-}
 
-#NavBar title
+
+#NavBar h2
 {
 justify-self: flex-start;
 align-self: left;
+color: #252422;
+margin-right: auto;
+}
+
+#NavBar h3{
+
 color: #252422;
 }
 
