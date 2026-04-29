@@ -30,4 +30,16 @@ color: #252422;
 }
 
 
+#ADOPT_BUTTON
+{
+    background-color: #EB5E28;
+    border-radius: 10px;
+    height: 30px;
+}
+#ADOPT_BUTTON h3{
+justify-self: flex-start;
+align-self: top;
+color: #252422;
+margin-top: 5px;
 
+}
