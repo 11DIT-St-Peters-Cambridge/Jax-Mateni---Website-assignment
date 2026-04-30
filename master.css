@@ -6,14 +6,18 @@ display: flex;
 align-items: center;
 justify-content: flex-start;
 gap: 20px;
+margin: -10px;
+
 }
 
 
 #NavBar img
 {
-/* I dont wanna delete this incase i need later or smth, idk */
+ width: 50px;
+ height: 50px;
+ margin: 5px;
 }
-
+ 
 
 
 #NavBar h2
@@ -35,6 +39,7 @@ color: #252422;
     background-color: #EB5E28;
     border-radius: 10px;
     height: 30px;
+    margin: 5px;
 }
 #ADOPT_BUTTON h3{
 justify-self: flex-start;
