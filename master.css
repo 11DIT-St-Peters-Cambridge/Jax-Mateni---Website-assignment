@@ -62,13 +62,13 @@ margin-top: 5px;
     background-image: url('Dog_Jump.avif');
     background-color: rgba(139, 139, 139, 0.5); /* im trying to tint the colour */
     background-blend-mode: multiply;
-    width: 100%;
+    width: 99%;
     height: 600px;
     border-radius: 10px;
     margin: 10px;
     margin-top: 20px;
     background-size: cover;
-    background-position: center;
+    
     background-repeat: no-repeat;
 }
 #WelcomeMessage img
