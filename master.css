@@ -1,6 +1,6 @@
 body{
     height: 6182px;
-    
+    overflow-x: hidden;
 
 }
 
@@ -47,6 +47,7 @@ color: #252422;
     height: 30px;
     margin: 5px;
 }
+
 #ADOPT_BUTTON h3{
 justify-self: flex-start;
 align-self: top;
@@ -54,11 +55,13 @@ color: #252422;
 margin-top: 5px;
 
 }
+
 #WelcomeMessage
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+
     background-image: url('Dog_Jump.avif');
     background-color: rgba(139, 139, 139, 0.5); /* im trying to tint the colour */
     background-blend-mode: multiply;
@@ -68,14 +71,65 @@ margin-top: 5px;
     margin: 10px;
     margin-top: 20px;
     background-size: cover;
-    
     background-repeat: no-repeat;
 }
-#WelcomeMessage img
+
+#WelcomeMessage img /* I didnt end up using this but i dont want to delete it just in case */
 {
     width: 100%;
     height: 600px;
     border-radius: 10px;
     margin: 10px;
-    
+}
+
+#WelcomeMessage h1 
+{
+    margin-top: 150px;
+    color: #252422;
+    font-size: 50px; 
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#WelcomeMessage p{
+     margin-top: 220px;
+     margin-left: -390px;
+    color: #252422;
+    font-size: 20px;
+}
+
+#Bar{
+    background-color: black;
+    height: 8px;
+    width: 120%;
+    margin-left: -10px;
+}
+#Invite{
+    font-size: 70px;
+    align-self: Center;
+    justify-self: Center;
+    color: #252422;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#ADOPT_BUTTON_BIG{
+    background-color: #EB5E28;
+    border-radius: 10px;
+    height: 180px;
+    width: 500px;
+    font-size: 80px;
+    align-self: Center;
+    justify-self: Center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#ProcessText{
+    font-size: 70px;
+    align-self: Center;
+    justify-self: Center;
+    color: #252422;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
