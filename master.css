@@ -1,6 +1,8 @@
 body{
     height: 6182px;
     overflow-x: hidden;
+    align-items: center;
+    align-content: center;
 
 }
 
@@ -156,4 +158,14 @@ margin-top: 5px;
 #navigation{
     background-color: #ccc5b9;
     border-color: #ccc5b9;
+}
+.dot {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%; 
+}
+#NameDisplay{
+      /* Homer dropped his donut, D'oh */
+      /* Homer spilled his soda, D'oh */
 }
