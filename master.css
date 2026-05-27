@@ -2,7 +2,6 @@ body{
     height: 6182px;
     overflow-x: hidden;
     align-items: center;
-    align-content: center;
 
 }
 
@@ -17,7 +16,6 @@ gap: 20px;
 margin: -10px;
 
 }
-
 
 #NavBar img
 {
@@ -142,13 +140,12 @@ margin-top: 5px;
     color: #252422;
     margin-top: 100px;
     margin-bottom: 100px;
-    align-self: center;
+
 
 }
 #Images{
     font-size: 70px;
     justify-self: Center;
-    align-self: center;
     color: #252422;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -165,7 +162,10 @@ margin-top: 5px;
     background-color: #bbb;
     border-radius: 50%; 
 }
-#NameDisplay{
-      /* Homer dropped his donut, D'oh */
-      /* Homer spilled his soda, D'oh */
+
+#Footer{
+    background-color: rgb(153, 153, 153);
+    height: 100px;
+    width: 110%;
+    margin: -10px;
 }
