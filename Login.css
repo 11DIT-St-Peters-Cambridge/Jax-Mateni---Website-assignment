@@ -1,4 +1,5 @@
 body{
+    height: 6182px;
     overflow-x: hidden;
 
 }
@@ -125,7 +126,7 @@ margin-top: 5px;
     border-radius: 50px;
 }
 #ProcessText{
-    font-size: 90px;
+    font-size: 70px;
     justify-self: Center;
     color: #252422;
     margin-top: 100px;
@@ -133,12 +134,13 @@ margin-top: 5px;
 
 
 }
-#Texts{
+#texts{
     font-size: 70px;
     justify-self: Center;
     color: #252422;
     margin-top: 100px;
     margin-bottom: 100px;
+
 
 }
 #Images{
@@ -146,7 +148,7 @@ margin-top: 5px;
     justify-self: Center;
     color: #252422;
     margin-top: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     width: 500px;
     height: auto;
     margin-left: 475px
@@ -168,3 +170,32 @@ margin-top: 5px;
     width: 110%;
     margin: -10px;
 } 
+
+#form{
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bbb;
+
+
+
+
+}
+form input{
+    width: 70%;
+    margin-top: 5%;
+    font-size: larger;
+    text-align: center;
+}
+#buton{
+    margin-top: 10%;
+}
+#EYE{
+    width: 12px;
+    height: auto;
+}
+#EYEHOLD{
+    margin-left: -40px;
+}
