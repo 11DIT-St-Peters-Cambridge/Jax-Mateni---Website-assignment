@@ -193,9 +193,11 @@ form input{
     margin-top: 10%;
 }
 #EYE{
-    width: 12px;
+    width: 15px;
     height: auto;
 }
 #EYEHOLD{
     margin-left: -40px;
+    background-color: transparent;
+    border-color: transparent;
 }
