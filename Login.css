@@ -201,3 +201,19 @@ form input{
     background-color: transparent;
     border-color: transparent;
 }
+@media screen and (max-width:800px) {
+  #form{
+    margin-top: 45%;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bbb;  
+}
+#buton{
+    margin-top: 10%;
+    width: 30%;
+    margin-bottom: 5%;
+    height: 35px;
+}
+}

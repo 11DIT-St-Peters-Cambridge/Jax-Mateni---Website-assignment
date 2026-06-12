@@ -5,4 +5,4 @@ function TOGGLE() {
   } else {
     x.type = "password";
   }
-}
+} /* for hiding/showing password for login page */
