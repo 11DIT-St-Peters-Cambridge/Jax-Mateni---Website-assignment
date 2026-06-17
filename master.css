@@ -168,3 +168,93 @@ margin-top: 5px;
     width: 110%;
     margin: -10px;
 } 
+#form{
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bbb;
+
+
+
+
+}
+form input{
+    width: 70%;
+    margin-top: 5%;
+    font-size: larger;
+    text-align: center;
+}
+#buton{
+    margin-top: 10%;
+}
+#EYE{
+    width: 15px;
+    height: auto;
+}
+#EYEHOLD{
+    margin-left: -40px;
+    background-color: transparent;
+    border-color: transparent;
+}
+#ContactBack{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 100px;
+    background-color: #bbb;
+    border-radius: 30px;
+
+}
+#Yap{
+    font-size: 30px;
+    justify-self: Center;
+    color: #252422;
+    margin-top: 0px;
+    margin-bottom: 100px;
+
+}
+#ProcessTextForm{
+    font-size: 90px;
+    justify-self: Center;
+    color: #252422;
+    margin-bottom: 10px;
+
+
+}
+#ProcessTextForm2{
+    font-size: 50px;
+    justify-self: Center;
+    color: #252422;
+    margin-bottom: 10px;
+    display: flex;
+    align-self: center;
+    padding-top: 20px;
+}
+#PetHold{
+    margin-left: 10%;
+    width: 30%;
+    margin-right: 10%;
+    background-color: #bbb;
+}
+
+
+
+@media screen and (max-width:800px) { /* resizing for mobile and smaller devices */
+  #form{
+    margin-top: 45%;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bbb;  
+}
+#buton{
+    margin-top: 10%;
+    width: 30%;
+    margin-bottom: 5%;
+    height: 35px;
+}
+}
