@@ -1,6 +1,5 @@
 body{
     overflow-x: hidden;
-
 }
 
 #NavBar
@@ -232,15 +231,24 @@ form input{
     display: flex;
     align-self: center;
     padding-top: 20px;
-}
+} 
 #PetHold{
-    margin-left: 10%;
-    width: 30%;
-    margin-right: 10%;
+    margin-left: 15%;
+    width: 20%;
+    height: 450px;
+    margin-right: 15%;
     background-color: #bbb;
+    text-align: center;
 }
-
-
+#PetIcon{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+#PetName{
+    justify-self: center;
+    text-align: center;
+}
 
 @media screen and (max-width:800px) { /* resizing for mobile and smaller devices */
   #form{
@@ -257,4 +265,8 @@ form input{
     margin-bottom: 5%;
     height: 35px;
 }
+}
+#holdy{
+    display: flex;
+    margin-top: 50px;
 }
