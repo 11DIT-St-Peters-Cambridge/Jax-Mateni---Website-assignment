@@ -254,7 +254,11 @@ form input{
     display: flex;
     margin-top: 50px;
 }
-
+#FooterImage{
+height: 50%;
+width: auto;
+margin-left: 5px;
+}
 @media screen and (max-width:800px) { /* resizing for mobile and smaller devices */
   #form{
     margin-top: 45%;
