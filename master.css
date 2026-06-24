@@ -10,6 +10,7 @@ display: flex;
 align-items: center;
 justify-content: flex-start;
 gap: 20px;
+width: 100%+10px;
 margin: -10px;
 
 }
@@ -249,6 +250,10 @@ form input{
     justify-self: center;
     text-align: center;
 }
+#holdy{
+    display: flex;
+    margin-top: 50px;
+}
 
 @media screen and (max-width:800px) { /* resizing for mobile and smaller devices */
   #form{
@@ -265,8 +270,82 @@ form input{
     margin-bottom: 5%;
     height: 35px;
 }
+#PetIcon{
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
 }
-#holdy{
+#PetName{
+    justify-self: center;
+    text-align: center;
+    font-size: xx-small;
+}
+#PetHold{
+    margin-left: 5%;
+    width: 40%;
+    height: auto;
+    margin-right: 5%;
+    background-color: #bbb;
+    text-align: center;
+}
+#WelcomeMessage h1 
+{
+    margin-top: 10%;
+    color: #252422;
+    font-size: 50px; 
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#WelcomeMessage p{
+     margin-top: 30%;
+     margin-left: -390px;
+    color: #252422;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+#WelcomeMessage
+{
     display: flex;
-    margin-top: 50px;
+    justify-content: left;
+    align-items: left;
+
+    background-image: url('Dog_Jump.avif');
+    background-color: rgba(139, 139, 139, 0.5); /* im trying to tint the colour */
+    background-blend-mode: multiply;
+    width: 99%;
+    height: 30%;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Texts{
+    font-size: xx-large;
+    justify-self: Center;
+    color: #252422;
+    margin-top: 1%;
+    margin-bottom: 5%;
+
+}
+#Images{
+    font-size: 70px;
+    justify-self: Center;
+    color: #252422;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: auto;
+    margin-left: 15%;
+}
+#ProcessText{
+    font-size: 400%;
+    justify-self: Center;
+    color: #252422;
+    margin-top: 4%;
+    margin-bottom: 5%;
+
+
+}
 }
